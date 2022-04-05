@@ -174,7 +174,9 @@ nav {
 }
 
 
-
+li{
+    margin: 20px;
+}
 .links {
     height: 0;
     overflow: hidden;
@@ -182,7 +184,7 @@ nav {
 }
 
 .show-links {
-    height: 10rem;
+    height: 50rem;
 }
 nav{
     background-color: #F3F3F3;
@@ -692,6 +694,14 @@ img:hover {
 
 
 @media screen and (max-width: 800px) {
+
+
+
+
+
+    li{
+        margin: 0px;
+    }
     .card-container {
         --gap: 16px;
         --num-cols: 2;
@@ -851,7 +861,7 @@ img:hover {
 }
 
 .inputField {
-    padding: 18px 18px;
+    padding: 14px 14px;
     width: 500px;
 }
 
@@ -868,7 +878,7 @@ img:hover {
 .btn2 {
     font: 22px Arial;
     display: inline-block;
-    padding: 18px 18px;
+    padding: 14px 14px;
 
 
     text-align: center;
