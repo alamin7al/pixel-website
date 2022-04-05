@@ -183,7 +183,10 @@ nav {
 .show-links {
     height: 10rem;
 }
+nav{
+    background-color: #F3F3F3;
 
+}
 .nav-center {
 
     background-color: #F3F3F3;
